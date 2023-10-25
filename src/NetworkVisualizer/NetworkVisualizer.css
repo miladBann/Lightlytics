@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+}
+
+.node {
+  border: solid 1px black;
+}
+
+.node .label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
