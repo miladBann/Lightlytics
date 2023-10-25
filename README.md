@@ -1,4 +1,4 @@
-https://codesandbox.io/s/pedantic-currying-ih6b96
+
 
 In order to display the missing arrows we need to modify some code inside the Edges.js component, the warning states that 'points' attribute has a non-numeric element [object Object], means that we are providing an array of points, and one of the elements within that array is not a number but an object, so in order to fix that we need to make sure to pass numeric values instead, so this is how the code inside Edges.js should look like:
 
